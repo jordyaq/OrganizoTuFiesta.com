@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+header {
+     background: linear-gradient(rgba(28, 31, 73, 0.4),rgba(24, 56, 88, 0.4)), url(../images/portada.jpg);
+     height: 100vh;
+     background-size: cover;
+
+}
+
+#contenedor-titulo-flex {
+    display: flex;
+    justify-content: center;
+    margin: 18vh;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+    margin: 0;
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+.contenedor-titulo a, #sobre-nosotros a {
+    font-size: 14px;
+    color: #ffffff;
+    background: black;
+    padding: 14px 24px;
+    display: inline-block; 
+}
+
+.contenedor-titulo {
+    text-align: center;
+}
+
+p.logo {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+nav ul li a {
+    color: #ffffff;
+}
+
+/*Seccion sobre mi*/
+
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+#sobre-nosotros .contenedor-nosotros {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-nosotros .texto {
+    width: 42%;
+}
+
+/*Seccion servicios*/
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio {
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;
+    
+}
+
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio p {
+    margin-bottom: 20px;
+    height: 200px;
+}
+
+.contenedor-servicios .servicio {
+    box-shadow:  13px 14px 20px 2px rgb(63, 60, 158);
+    -moz-box-shadow: 13px 14px 20px 2px rgba(63, 60, 158);
+    box-shadow: 13px 14px 20px 2px rgba(63, 60, 158);
+}
+
+/*Mis trabajos*/
+
+span {
+    font-size: 50px !important;
+
+}
+
+/*Por que trabajar conmigo*/
+
+.contendor-trabajar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#por-que-trabajar .item {
+    width: 28%;
+}
+
+#por-que-trabajar ul li {
+    text-align: center;
+    list-style: none;
+}
+
+#por-que-trabajar ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#por-que-trabajar ul li:nth-child(3) {
+    line-height: 31px;
+}
+
+/*Seccion publicaciones*/
+
+.contenedor-publicaciones {
+    display: flex;
+}

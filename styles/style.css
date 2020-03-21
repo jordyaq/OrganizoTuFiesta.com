@@ -1,7 +1,11 @@
 body {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    
 }
+
+
+
 
 header .contenedor {
     display: flex;
@@ -51,7 +55,7 @@ h2 {
     color: #ffffff;
     text-align: center;
 }
-.contenedor-titulo a, #sobre-nosotros a {
+.contenedor-titulo a, #sobre-nosotros a, #blog a {
     font-size: 14px;
     color: #ffffff;
     background: black;
@@ -73,6 +77,10 @@ nav ul li a {
 }
 
 /*Seccion sobre mi*/
+
+#sobre-nosotros {
+    background-color: #FDF5E6;
+}
 
 h3 {
     text-align: center;
@@ -124,12 +132,21 @@ h3 {
 
 /*Mis trabajos*/
 
+#mis-trabajos {
+    background-color: #F0FFFF;
+    
+}
+
 span {
     font-size: 50px !important;
 
 }
 
 /*Por que trabajar conmigo*/
+
+#por-que-trabajar {
+    background-color: #FDF5E6;
+}
 
 .contendor-trabajar {
     display: flex;
@@ -159,6 +176,41 @@ span {
 
 /*Seccion publicaciones*/
 
-.contenedor-publicaciones {
-    display: flex;
+#blog {
+    background-color: #F0FFFF;
 }
+
+#blog .contenedor-publicaciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+#blog .publicacion {
+     width: 36%;
+     -webkit-box-shadow: 14px 14px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 14px 25px 0px rgba(0,0,0,0.75);
+    box-shadow: 14px 14px 25px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+#blog img {
+    width: 100%;
+}
+
+#blog .contenido {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#blog h4 {
+     font-size: 23px;
+     margin-bottom: 15px;
+     margin: 0 ;
+}
+
+#blog p {
+    color: #5a6169;
+    font-size: 16px;
+    line-height: 23px;
+}
+

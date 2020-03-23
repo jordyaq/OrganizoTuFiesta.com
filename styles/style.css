@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+
     
 }
 
@@ -55,7 +56,7 @@ h2 {
     color: #ffffff;
     text-align: center;
 }
-.contenedor-titulo a, #sobre-nosotros a, #blog a {
+.contenedor-titulo a, #sobre-nosotros a, #blog a, #que-esperas a, #contacto input[type="submit"] {
     font-size: 14px;
     color: #ffffff;
     background: black;
@@ -78,9 +79,7 @@ nav ul li a {
 
 /*Seccion sobre mi*/
 
-#sobre-nosotros {
-    background-color: #FDF5E6;
-}
+
 
 h3 {
     text-align: center;
@@ -132,10 +131,7 @@ h3 {
 
 /*Mis trabajos*/
 
-#mis-trabajos {
-    background-color: #F0FFFF;
-    
-}
+
 
 span {
     font-size: 50px !important;
@@ -144,9 +140,7 @@ span {
 
 /*Por que trabajar conmigo*/
 
-#por-que-trabajar {
-    background-color: #FDF5E6;
-}
+
 
 .contendor-trabajar {
     display: flex;
@@ -176,9 +170,7 @@ span {
 
 /*Seccion publicaciones*/
 
-#blog {
-    background-color: #F0FFFF;
-}
+
 
 #blog .contenedor-publicaciones {
     display: flex;
@@ -214,3 +206,98 @@ span {
     line-height: 23px;
 }
 
+/*SECCION QUE ESPERAS*/
+
+#que-esperas {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*FORMULARIO*/
+
+#contacto form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+input[type="email"] {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+}
+
+input[type="text"] {
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff;
+    font-size: 17px;
+    
+} 
+
+textarea {
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 1px solid #5cb8ff ;
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    margin: auto;
+}
+
+.contacto-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.contacto-info img {
+    width: 28px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer {
+    background: #2f2f2f;
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer img {
+    margin: 0 40px;
+    transform: rotate(0);
+    transition: 0,4s;
+}
+footer img:hover {
+    transform: rotate(360deg);
+    transition: 0.4s;
+}
+
+footer p {
+    color: white;
+}
+
+/*Whats*/
+
+#whatsapp {
+    position: fixed;
+    top: 80%;
+    right: 5%;
+   
+}

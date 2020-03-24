@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
-    
+    <meta name="viewport" content="width=device-width,user-scalable=no">    
 </head>
 
 <body>
@@ -22,11 +22,12 @@
                 <p class="logo">ORGANIZO TU FIESTA</p>
                 <nav>
                     <ul>
-                        <li><a href="">Sobre Nosotros</a></li>
-                        <li><a href="">Nuestra Experiencia</a></li>
-                        <li><a href="">Por Que Elegirnos</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#mis-trabajos">Nuestros Trabajos</a></li>
+                        <li><a href="#por-que-trabajar">Por Que Elegirnos</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
 
@@ -38,7 +39,7 @@
             <div class="contenedor-titulo">
                 <h1>ORGANIZO TU FIESTA</h1>
                 <h2>Eficiencia y calidad</h2>
-                <a href="">Portafolio de trabajo</a>
+                <a href="#mis-trabajos">Portafolio de trabajo</a>
             </div>
         </div>
     </header>
@@ -77,7 +78,7 @@
                 </div>
             </div>
         </section>
-        <hr>
+        
         <section id="servicios">
 
             <div class="contenedor">
@@ -174,7 +175,7 @@
             </div>
  
         </section>
-        <hr>
+        
         <section id="mis-trabajos">
             <h3>Nuestros trabajos</h3>
             <div class="contenedor">
@@ -195,7 +196,7 @@
             </div>
 
         </section>
-        <hr>
+        
         <section id="por-que-trabajar">
             <div class="contenedor">
                 <h3>¿Por que trabajar con nosotros?</h3>
@@ -224,7 +225,6 @@
                 </div>
             </div>
         </section>
-        <hr>
 
         <section id="blog">
             <div class="contenedor">
@@ -262,9 +262,7 @@
                  </div>
             </div>
         </section>
-        <br>
-        <br>
-        <hr>
+       
         
         <section id="que-esperas">
             <div class="contenedor">

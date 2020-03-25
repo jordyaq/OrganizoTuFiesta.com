@@ -4,29 +4,30 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <meta charset="UTF-8">
-    <title>organizotufiesta.com</title>
+    <title>OrganizoTuFiesta.com</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
-    <meta name="viewport" content="width=device-width,user-scalable=no">    
+    <meta name="viewport" content="width=device-width,user-scalable=no"> 
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/favicon.ico?v=a8def514be8a">
+   
 </head>
 
 <body>
 
     
-    <a href="https://wa.link/zf8pc5" id="whatsapp"><img src="images/whats-contacto.png" alt="" width="160px" height="160px"></a>
+    <a href="https://api.whatsapp.com/send?phone=5534160848&text=%BFHola%20me%20puedes%20dar%20mas%20informaci%F3n%3F" id="whatsapp"><img src="images/whats-contacto.png" alt="" width="120px" height="120px"></a>
 
     <header>
         <div class="menu">
             <div class="contenedor">
-                <p class="logo">ORGANIZO TU FIESTA</p>
+                <p class="logo">OrganizoTuFiesta.com</p>
                 <nav>
                     <ul>
-                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
                         <li><a href="#servicios">Servicios</a></li>
-                        <li><a href="#mis-trabajos">Nuestros Trabajos</a></li>
-                        <li><a href="#por-que-trabajar">Por Que Elegirnos</a></li>
-                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#mis-trabajos">Nuestros trabajos</a></li>
+                        <li><a href="#por-que-trabajar">Por que elegirnos</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </nav>
@@ -37,7 +38,7 @@
 
         <div class="contenedor" id="contenedor-titulo-flex">
             <div class="contenedor-titulo">
-                <h1>ORGANIZO TU FIESTA</h1>
+                <h1>OrganizoTuFiesta.com</h1>
                 <h2>Eficiencia y calidad</h2>
                 <a href="#mis-trabajos">Portafolio de trabajo</a>
             </div>
@@ -48,7 +49,7 @@
         <section id="sobre-nosotros">
 
             <div class="contenedor">
-                    <h3>Sobre Nosotros</h3>
+                    <h3>Sobre nosotros</h3>
                 <div class="contenedor-nosotros">
                         
                     <div class="eventos">
@@ -56,20 +57,20 @@
                     </div>
                     <div class="texto">
                         <p>
-                            Somos una empresa con experiencia en el ambito organizacional,
+                            Somos una empresa con experiencia en el ámbito organizacional,
                              tenemos la capacidad de hacer 
-                            realidad cualquiera idea o sueño para tu evento.
+                            realidad cualquier idea o sueño para tu evento.
                         </p>
 
                         <p>
-                            Todo nuestro equipo de trabajo se encuentra capacitado para que el evento sea un exito,
-                            contamos con equipo de marketing, desarrolladores y organizadores para que el evento sea unico
+                            Todo nuestro equipo de trabajo se encuentra capacitado para que el evento sea un éxito,
+                            contamos con equipo de marketing, desarrolladores y organizadores para que sea único
                             y con un control de tiempo exacto.
                         </p>
 
                         <p>
-                            Cualquier evento, ya sea chico o grande lo hacemos experiencias unicas e inolvidables
-                            solicita tu cotizaciòn y ponte en contacto con nosotros.
+                            Cualquier evento, ya sea pequeño o grande lo convertimos en una experiencia única e inolvidable,
+                            solicita tu cotizaciòn y contacta con nosotros.
                         </p>
 
                         <a href="">VER NUESTRO TRABAJO</a>
@@ -87,6 +88,8 @@
                 
                 <div class="contenedor-servicios">
                     <div class="servicio">
+                        <img src="images/tematica.jpg" alt="Ejemplo tematica" width="100%">
+                        
                         <h4>Eventos Tematicos</h4>
                         <p>
                             Desde casino hasta tiki tenemos una muy amplia variedad
@@ -97,9 +100,10 @@
                     </div>
 
                     <div class="servicio">
+                        <img src="images/mobiliario.jpg" alt="Ejemplo renta" width="100%">
                             <h4>Renta de mobiliario</h4>
                             <p>
-                                Periqueras, salas lounges, sillas tiffany, sillas plegables negras, poofs,
+                                Periqueras, salas lounges, sillas tiffany, sillas plegables negras, puffs,
                                 rocola, carpas, pistas iluminadas, equipo de audio, luces y mas...
                             </p>
                             
@@ -107,46 +111,59 @@
                     </div>
 
                     <div class="servicio">
+                            <img src="images/dj.jpg" alt="Ejemplo musica" width="100%">
                             <h4>Mùsica</h4>
                             <p>
-                                Contamos con una cartera de Dj's para todo tipo de evento, mariachi, karaoke, banda sinaloense, norteño banda, norteño clasico, marimba, jarochos, huastecos, orquesta de salsa, sonoras, trios, grupo de cuerdas, jazz, rock 70's 80's 90's y actuales.
+                                Contamos con una cartera de Dj's para todo tipo de evento, karaoke y música en vivo como mariachi,
+                                 banda sinaloense, norteño banda, norteño clasico, marimba, jarochos, huastecos, orquesta de salsa,
+                                  sonoras, versátil, trios, grupo de cuerdas, jazz, rock 70's 80's 90's y actuales.
                             </p>
                             
                            
                     </div>
 
                     <div class="servicio">
+                            <img src="images/comida.jpg" alt="Ejemplo comida" width="100%">
                             <h4>Alimentos</h4>
                             <p>
-                                En nuestro menu tenemos una variedad muy amplia como banquetes de cocina de alto nivel, desayunos tipo brunch, taquisas, barbacoa, carnitas, buffet, parrilladas, antojitos mexicanos, bocadillos o bien cualquier alimento de tu preferencia. 
+                                En nuestro menú tenemos una variedad muy amplia como banquetes de cocina de alto nivel,
+                                 desayunos tipo brunch, taquizas, barbacoa, carnitas, buffet, parrilladas, antojitos mexicanos,
+                                  bocadillos o bien cualquier alimento de tu preferencia. 
                             </p>
                             
                            
                     </div>
 
                     <div class="servicio">
+                        <img src="images/video.jpg" alt="Ejemplo video" width="100%">
                             <h4>Servicio de fotografia y video profesional.</h4>
                             <p>
-                                Sabemos que llevarte un recuerdo de tu evento es unico por esto contamos
-                                con fotografos, camarografos y cabinas de fotografia.  
+                                Sabemos que llevarte un recuerdo de tu evento es indispensable por esto contamos
+                                con fotógrafo, camarógrafo y cabinas de fotografía.  
                             </p>
                             
                            
                     </div>
 
                     <div class="servicio">
+                        <img src="images/infantil.jpeg" alt="Ejemplo infantil" width="100%">
                             <h4>Eventos Infantiles</h4>
                             <p>
-                                No olvidamos a los mas pequeños del hogar para ellos tenemos menus de comida especiales, renta de inflables, carpas, mesas de dulces, magos, payasos, maquillaje de fantasia, botargas, disfraces animador o bien la tematica que desee.
+                                No olvidamos a los mas pequeños del hogar,
+                                para ellos tenemos menus de comida especiales,
+                                renta de inflables, carpas, mesas de dulces, magos,
+                                payasos, maquillaje de fantasia, botargas, disfraces,
+                                animadores o bien la temàtica que desee.
                             </p>
                             
                            
                     </div>
 
                     <div class="servicio">
+                        <img src="images/seguridad.jpg" alt="Ejemplo seguridad" width="100%">
                             <h4>Seguridad para tu evento</h4>
                             <p>
-                                Privacidad garantizada, tambien contamos con seguridad privada capacitada
+                                Privacidad garantizada, también contamos con seguridad privada capacitada
                                 para toda situaciòn y todo tipo de evento.
                             </p>
                             
@@ -154,23 +171,27 @@
                     </div>
 
                     <div class="servicio">
+                        <img src="images/valet.jpg" alt="Ejemplo Valet" width="100%">
                             <h4>Valet Parking</h4>
                             <p>
-                                Disfruta el evento, nosotros nos encargamos que los vehiculos esten a salvo.
+                                Disfruta el evento, nosotros nos encargamos que los vehiculos estén a salvo.
                             </p>
                             
                            
                     </div>
 
                     <div class="servicio">
+                        <img src="images/pago.png" alt="Ejemplo pago" width="100%" height="180px">
                             <h4>Metodos de pago</h4>
                             <p>
-                                Facturamos y aceptamos pago en efectivo, deposito bancario, tarjetas de credito, debito y en paquetes seleccionados contamos con meses sin intereses. 
+                                Facturamos y aceptamos pago en efectivo, depósito bancario,
+                                tarjetas de crédito,
+                                débito y en paquetes seleccionados contamos con meses sin intereses. 
                             </p>
                             
                            
                     </div>
-                    <h4>Si no vez aquì lo que quieres para tu fiesta/evento pregunta y te lo conseguimos. </h4>
+                    <h4>Si no ves aquì lo que quieres para tu fiesta/evento pregunta y te lo conseguimos. </h4>
                 </div>
             </div>
  
@@ -180,18 +201,12 @@
             <h3>Nuestros trabajos</h3>
             <div class="contenedor">
                     <div class="owl-carousel owl-theme">
-                            <div class="item"><h4>1</h4></div>
-                            <div class="item"><h4>2</h4></div>
-                            <div class="item"><h4>3</h4></div>
-                            <div class="item"><h4>4</h4></div>
-                            <div class="item"><h4>5</h4></div>
-                            <div class="item"><h4>6</h4></div>
-                            <div class="item"><h4>7</h4></div>
-                            <div class="item"><h4>8</h4></div>
-                            <div class="item"><h4>9</h4></div>
-                            <div class="item"><h4>10</h4></div>
-                            <div class="item"><h4>11</h4></div>
-                            <div class="item"><h4>12</h4></div>
+                            <div class="item"><h4><img src="images/uno.jpg" alt="Ejemplo uno"></h4></div>
+                            <div class="item"><h4><img src="images/dos.jpg" alt="Ejemplo dos"></h4></div>
+                            <div class="item"><h4><img src="images/tres.jpg" alt="Ejemplo tres"></h4></div>
+                            <div class="item"><h4><img src="images/cuatro.jpg" alt="Ejemplo cuatro"></h4></div>
+                            <div class="item"><h4></h4><img src="images/cinco.jpg" alt="Ejemplo cinco"></div>
+                            <div class="item"><h4></h4><img src="images/seis.jpg" alt="Ejemplo seis"></div>
                         </div>
             </div>
 
@@ -199,75 +214,52 @@
         
         <section id="por-que-trabajar">
             <div class="contenedor">
-                <h3>¿Por que trabajar con nosotros?</h3>
+                <h3>¿Por qué trabajar con nosotros?</h3>
                 <div class="contendor-trabajar">
                     <div class="item">
                         <ul>
-                            <li><img src="" alt=""></li>
-                            <li>Eficiencia</li>
-                            <li>El por que somo eficientes</li>
+                            <li><img src="images/familia.jpg" alt="Familia" width="340px"></li>
+                            <li>Empresa familiar</li>
+                            <li>
+                                Al contratarnos tienes que saber que generas muchos empleos
+                                con los cuales ayudas a nuestros trabajadores a mantener a sus
+                                familias y sus estudios,
+                                nosotros los cuidamos como si fueran nuestra familia por 
+                                esto sabemos que te trataran con gusto y respeto.
+                            </li>
                         </ul>
                     </div>
                     <div class="item">
                         <ul>
-                            <li><img src="" alt=""></li>
-                            <li>Eficiencia</li>
-                            <li>El por que somo eficientes</li>
+                            <li><img src="images/organizacion.png" alt="Organización" width="280px"> </li>
+                            <li>Organización</li>
+                            <li>
+                                Sabemos que siempre el que organiza la fiesta/evento es quien menos
+                                la disfruta por que se preocupa que todo salga bien, para eso estamos
+                                nosotros, nos encargamos de todo por ti, lo único que tienes que hacer
+                                es pasarla bien.
+                            </li>
                         </ul>
                     </div>
                     <div class="item">
                         <ul>
-                            <li><img src="" alt=""></li>
-                            <li>Eficiencia</li>
-                            <li>El por que somo eficientes</li>
+                            <li><img src="images/garantia.png" alt="Garantia" width="220px"> </li>
+                            <li>Garantia de satisfacción</li>
+                            <li>Tenemos años de experiencia en el rubro,
+                                tu fiesta/evento va a ser única e inolvidable para ti y tus invitados. 
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="blog">
-            <div class="contenedor">
-                 <h3>Blog</h3>
-                 <div class="contenedor-publicaciones">
-                    <div class="publicacion">
-                        <img src="" alt="">
-                        
-                        <div class="contenido">
-                            <h4>Eventos</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                             Voluptatibus modi error ut asperiores excepturi eius,
-                              quaerat alias aliquam! Aliquid eum, ab est dolores dolor
-                               repudiandae distinctio corrupti enim tempora ea!
-                        </p>
-                        <a href="">Leer Mas ➤ </a>
-                        </div>
-                    </div>
-
-                    <div class="publicacion">
-                        <img src="" alt="">
-                        <div class="contenido">
-                        <h4>Eventos</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                             Voluptatibus modi error ut asperiores excepturi eius,
-                              quaerat alias aliquam! Aliquid eum, ab est dolores dolor
-                               repudiandae distinctio corrupti enim tempora ea!
-                        </p>
-                        <a href="">Leer Mas ➤ </a>
-                        </div>
-                    </div>
-                    
-                 </div>
-            </div>
-        </section>
        
         
         <section id="que-esperas">
             <div class="contenedor">
-                <h3>Que esperas para que hagamos tu evento realidad</h3>
-                <a href="">HABLEMOS</a>
+                <h3>¡Qué esperas para que hagamos tu evento realidad!</h3>
+                <a href="#contacto">HABLEMOS</a>
             </div>
 
         </section>
@@ -294,8 +286,13 @@
 
 
                     <div class="contacto-info">
-                        <div class="mail"><img src="" alt="Icono de Correo">ventas@organizotufiesta.com</div>
-                        <div class="whatsapp"><img src="" alt="Icono de Whastapp">5534160848</div>
+                        <div class="mail">
+                            <img src="images/correo.png" width="60px" height="40px"  alt="Icono de Correo">
+                            ventas@organizotufiesta.com
+                        </div>
+                        <div class="whatsapp"><img src="images/whats-contacto.png" width="40px" height="40px" alt="Icono de Whastapp">
+                            5534160848
+                        </div>
                       </div>
           
           
@@ -345,7 +342,7 @@
               items:3
           },
           1000:{
-              items:4
+              items:5
           }
       }
           })

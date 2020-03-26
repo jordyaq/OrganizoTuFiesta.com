@@ -2,17 +2,29 @@ html {
     scroll-behavior: smooth;
 }
 
+
 body {
     margin: 0;
-    font-family: 'Roboto Mono', monospace;
-
+    font-family: 'Gotu', sans-serif;
     
 }
 
 
 #sobre-nosotros p, #servicios p {
-    text-align: justify;
+    text-align: center;
+    
 
+}
+
+#sobre-nosotros h3, #servicios h3 h4, #mis-trabajos h3, #por-que-trabajar h3 li, #que-esperas h3, #contacto h3 {
+    font-family: 'Poiret One', cursive;
+
+}
+
+
+
+#sobre-nosotros p {
+    text-align: justify;
 }
 
 
@@ -51,7 +63,8 @@ header {
 #contenedor-titulo-flex {
     display: flex;
     justify-content: center;
-    margin: 18vh;
+    margin-top: 24vh;
+    width: 100%;
 }
 
 h1 {
@@ -123,7 +136,7 @@ h3 {
 }
 
 .servicio h4 {
-    font-size: 30px;
+    font-size: 30x;
     margin: 0;
 }
 
@@ -316,4 +329,105 @@ footer p {
 
 #sobre-nosotros, #servicios, #mis-trabajos, #por-que-trabajar, #blog, #contacto {
     padding: 90px 0;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    
+    .menu-icon {
+        display: block;
+        float: right;
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    header nav {
+        position: absolute;
+        top: 83px;
+        left: 0;
+        height: 268px;
+        background: black;
+        width: 100%;
+        display: none;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+        
+
+    }
+
+    h2 {
+        font-size: 10px;
+    }
+    #sobre-nosotros .contenedor-nosotros {
+        flex-direction: column;
+    }
+
+    #sobre-nosotros img, .texto {
+        width: 100%;
+    }
+
+    #sobre-nosotros .texto {
+        width: 100%;
+    }
+
+    .contenedor-servicios {
+        flex-direction: column;
+    }
+
+    .servicio {
+        padding: 32px 28px 98px 28px;
+        width: 79%;
+    }
+
+    h3 {
+        font-size: 45px;
+    }
+
+    .contendor-trabajar {
+        flex-direction: column;
+    }
+
+
+    #por-que-trabajar .item {
+        width: 100%;
+    }
+
+    .item ul {
+        padding: 0;
+    }
+
+    #contacto form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    input[type="text"], input[type="email"] {
+        width: 100%;
+    }
+    
+    .contacto-info .mail, .whatsapp {
+        font-size: 14px;
+    }
+
+    .contacto-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
 }

@@ -5,10 +5,11 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <meta charset="UTF-8">
     <title>OrganizoTuFiesta.com</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gotu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
-    <meta name="viewport" content="width=device-width,user-scalable=no"> 
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1"> 
     <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/favicon.ico?v=a8def514be8a">
    
 </head>
@@ -16,12 +17,13 @@
 <body>
 
     
-    <a href="https://api.whatsapp.com/send?phone=5534160848&text=%BFHola%20me%20puedes%20dar%20mas%20informaci%F3n%3F" id="whatsapp"><img src="images/whats-contacto.png" alt="" width="120px" height="120px"></a>
+    <a href="https://api.whatsapp.com/send?phone=5534160848&text=%BFHola%20me%20puedes%20dar%20mas%20informaci%F3n%3F" id="whatsapp"><img src="images/whats-contacto.png" alt="Link mensaje whatsapp" width="80px" height="80px"></a>
 
     <header>
         <div class="menu">
             <div class="contenedor">
                 <p class="logo">OrganizoTuFiesta.com</p>
+                <img class="menu-icon" src="images/menu.png" alt="Menu celular">
                 <nav>
                     <ul>
                         <li><a href="#sobre-nosotros">Sobre nosotros</a></li>
@@ -39,7 +41,7 @@
         <div class="contenedor" id="contenedor-titulo-flex">
             <div class="contenedor-titulo">
                 <h1>OrganizoTuFiesta.com</h1>
-                <h2>Eficiencia y calidad</h2>
+                <h2>Organización de eventos y fiestas de todo tipo</h2>
                 <a href="#mis-trabajos">Portafolio de trabajo</a>
             </div>
         </div>
@@ -369,6 +371,11 @@
                 $('.menu a').css({"color":"#fff"});
                 $('.logo').css({"color":"#fff"});
             }
+            })
+
+            $('.menu-icon').click(function(){
+                $('header nav').slideToggle();
+
             })
             
         })

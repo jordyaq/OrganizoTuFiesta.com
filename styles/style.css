@@ -395,6 +395,10 @@ footer p {
         width: 79%;
     }
 
+    #servicios h4 {
+        text-align: center;
+    }
+
     h3 {
         font-size: 45px;
     }

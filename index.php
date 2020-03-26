@@ -17,7 +17,7 @@
 <body>
 
     
-    <a href="https://api.whatsapp.com/send?phone=525534160848&text=%BFHola%20me%20puedes%20dar%20mas%20informaci%F3n%3F" id="whatsapp"><img src="images/whats-contacto.png" alt="Link mensaje whatsapp" width="80px" height="80px"></a>
+    <a href="https://api.whatsapp.com/send?phone=525534160848&text=Hola%20me%20puedes%20ayudar%3F" id="whatsapp"><img src="images/whats-contacto.png" alt="Link mensaje whatsapp" width="80px" height="80px"></a>
 
     <header>
         <div class="menu">
@@ -75,7 +75,7 @@
                             solicita tu cotizaciòn y contacta con nosotros.
                         </p>
 
-                        <a href="">VER NUESTRO TRABAJO</a>
+                        <a href="#mis-trabajos">VER NUESTRO TRABAJO</a>
 
                     </div>
                 </div>

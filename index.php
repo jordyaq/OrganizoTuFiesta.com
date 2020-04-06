@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="owl/owl.carousel.min.css">
     <link rel="stylesheet" href="owl/owl.theme.default.min.css">
     <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1"> 
-    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/favicon.ico?v=a8def514be8a">
+    <meta name="description" content="Especialistas en organizacion de eventos/fiestas,renta de periqueras,salas lounges,sillas tiffany,sillas plegables negras,puffs,rocola,carpas,pistas iluminadas,equipo de audio,luces,taquizas,barbacoa, carnitas,buffet,antojitos mexicanos,fotografia,video, seguridad,fiestas infantiles,valet y musica."> 
    
 </head>
 
@@ -358,9 +358,9 @@
                 $('.menu').css({"position":"fixed"});
                 $('.menu').css({"width":"100%"});
                 $('.menu').css({"top":"0"});
-                $('.menu').css({"background":"#fff"});
-                $('.menu a').css({"color":"#000"});
-                $('.logo').css({"color":"#000"});
+                $('.menu').css({"background":"#000"});
+                $('.menu a').css({"color":"#fff"});
+                $('.logo').css({"color":"#fff"});
                 $('.menu').css({"box-shadow":"rgba(0,0,0,0.22) 6px 1px 1px"});
                 $('.menu').css({"z-index":"100"});
                 
@@ -375,9 +375,7 @@
 
             $('.menu-icon').click(function(){
                 $('header nav').slideToggle();
-
             })
-            
         })
     </script>
 
